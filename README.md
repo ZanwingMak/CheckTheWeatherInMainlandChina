@@ -1,8 +1,11 @@
 # CheckTheWeatherInMainlandChina
 Check the weather in mainland China 查看中国大陆地区天气
 
-程序运行的第一步是获取本机外网ip,然后再获取ip的物理地址(城市),
-最后把城市传给天气api,将json转换成dict(字典)后取值输出，
-手动输入城市则省去前面两个步骤。
+本程序是调用万年历（etouch.cn）的API，返回json格式，再转换成字典，最后调取信息即可。
 
-![image](http://m9kun.com/usr/uploads/2015/08/964238747.jpg)
+API：http://wthrcdn.etouch.cn/weather_mini?city=城市名字
+主要使用库：requests、json、urllib2、PyQt4
+
+【EXE打包】链接: http://pan.baidu.com/s/1i32fQFb 密码: s2b5
+
+![image](http://i13.tietuku.com/f7f66455f7281ed4.png)
